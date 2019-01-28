@@ -692,6 +692,8 @@ animation-delay: .8s;
 .page-middle-banner .opacity h3 {
   color: #fff;
   margin-bottom: 25px;
+  padding: 0 15px;
+  line-height: 4rem;
 }
 .page-middle-banner .opacity a {
   width: 200px;
@@ -700,6 +702,10 @@ animation-delay: .8s;
   text-transform: uppercase;
   font-weight: 700;
   border-width:1px;
+}
+
+.page-middle-banner p.p-color {
+  color:#d73e4d;
 }
 /*** 
 
