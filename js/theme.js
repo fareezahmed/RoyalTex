@@ -59,7 +59,7 @@ function BannerVideoSlider () {
     banner.revolution({
       sliderType:"standard",
       sliderLayout:"auto",
-      loops:false,
+      loops:true,
       delay:10000,
       navigation: {
           arrows: {
