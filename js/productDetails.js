@@ -246,6 +246,7 @@ if(page) {
     $('.product-weight').text(products[page].weight);
     $('.product-pack').text(products[page].pack);
     $('.product-specs').text(products[page].specs);
+    $('.product-image').attr('src', 'images/pdp/' + page + '.jpg');
 }
 
 console.log(products);
