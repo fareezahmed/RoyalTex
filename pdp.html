@@ -79,11 +79,11 @@
 			<section class="inner-page-banner">
 				<div class="opacity">
 					<div class="container">
-						<h2>Product Details</h2>
+						<h2 class="product-title">Product Details</h2>
 						<ul>
 							<li><a href="index.html">Home</a></li>
 							<li>/</li>
-							<li>Product Details</li>
+							<li class="product-title">Product Details</li>
 						</ul>
 					</div> <!-- /.container -->
 				</div> <!-- /.opacity -->
@@ -104,39 +104,43 @@
                         </div> <!-- /.col- -->
 
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <h2>Product Title</h2>
+                            <h2 class="product-title">Product Title</h2>
                             <br>
                             <h4>Product Details</h4>
                             <table class="pure-table">
-                                <thead>
+                                <!-- <thead>
                                     <tr>
                                         <th>#</th>
                                         <th>Make</th>
                                         <th>Model</th>
                                         <th>Year</th>
                                     </tr>
-                                </thead>
+                                </thead> -->
                             
                                 <tbody>
                                     <tr>
-                                        <td>1</td>
-                                        <td>Honda</td>
-                                        <td>Accord</td>
-                                        <td>2009</td>
+                                        <td>Color</td>
+                                        <td class="product-color">Honda</td>
+                                    </tr>
+                            
+                                    <tr class="pure-table-odd">
+                                        <td>Size</td>
+                                        <td class="product-size">Honda</td>
                                     </tr>
                             
                                     <tr>
-                                        <td>2</td>
-                                        <td>Toyota</td>
-                                        <td>Camry</td>
-                                        <td>2012</td>
+                                        <td>Weight</td>
+                                        <td class="product-weight">Honda</td>
                                     </tr>
                             
-                                    <tr>
-                                        <td>3</td>
-                                        <td>Hyundai</td>
-                                        <td>Elantra</td>
-                                        <td>2010</td>
+                                    <tr class="pure-table-odd">
+                                        <td>Packing</td>
+                                        <td class="product-pack">Honda</td>
+									</tr>
+									
+									<tr>
+                                        <td>Specs</td>
+                                        <td class="product-specs">Honda</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -283,6 +287,9 @@
 
 		<!-- Theme js -->
 		<script type="text/javascript" src="js/theme.js"></script>
+
+		<!-- Theme js -->
+		<script type="text/javascript" src="js/productDetails.js"></script>
 
 		</div> <!-- /.main-page-wrapper -->
 	</body>
