@@ -27,11 +27,11 @@ var products = {
     },
     "bath-towel": {
         "title": "Bath Towel",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "color": "White",
+        "size": "20 x 40, 22 x 44, 24 x 48, 25 x 50 cms",
+        "weight": "4.00 to 10.00 lbs/dz",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "Superior quality",
         "img": [
             {
 
@@ -40,11 +40,11 @@ var products = {
     },
     "printed-tea-towel": {
         "title": "Printed Tea Towel",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
-        "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "color": "White based,  custom multi color print",
+        "size": "45 x 67 cms",
+        "weight": "65 grams",
+        "pack": "20 dozens/ carton",
+        "specs": "Superior quality",
         "img": [
             {
 
@@ -53,10 +53,10 @@ var products = {
     },
     "glass-cloth": {
         "title": "Glass Cloth",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
+        "color": "color stripped lintless glass towel",
+        "size": "15 x 24, 20 x 28 cms",
         "weight": "40 grams",
-        "pack": "100 dozens/ carton",
+        "pack": "500 gms / d",
         "specs": "85% Cotton + 15% Polyester",
         "img": [
             {
@@ -66,11 +66,11 @@ var products = {
     },
     "dish-cloth": {
         "title": "Dish Cloth",
-        "color": "White, Black, Royal Blue and much more",
+        "color": "White based color stripped lintless cloth",
         "size": "35 x 35 cms",
         "weight": "40 grams",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "Superior quality",
         "img": [
             {
 
@@ -80,10 +80,10 @@ var products = {
     "table-cloth": {
         "title": "Table Cloth",
         "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "size": "150cm x 225cm",
+        "weight": "---",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "100% LINEN",
         "img": [
             {
 
@@ -92,11 +92,11 @@ var products = {
     },
     "calico-bag": {
         "title": "Calico Bag",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "color": "Natural Colour Off white ",   
+        "size": "10×15cm，20×30cm，21×15.5cm",
+        "weight": "130 gsm",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "100% Natural Cotton Calico",
         "img": [
             {
 
@@ -106,10 +106,10 @@ var products = {
     "canvas-bag": {
         "title": "Canvas Bag",
         "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "size": "40 x 40 cm",
+        "weight": "340 GSM / 12 oz",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "100% Natural Cotton, Machine washable, 100% recyclable",
         "img": [
             {
 
@@ -118,11 +118,11 @@ var products = {
     },
     "cushion-cover": {
         "title": "Cushion Cover",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "color": "Digital print",
+        "size": "45 × 45 cm",
+        "weight": "110 grams",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "100% Linen cotton",
         "img": [
             {
 
@@ -131,11 +131,11 @@ var products = {
     },
     "jute-bag": {
         "title": "Jute Bag",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
+        "color": "Contrast colour handles and trim",
+        "size": "40 x 35 x 20 cm",
         "weight": "40 grams",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "handy, plain jute tote bag with wide gusset sides, made of durable, trendy 100% natural jute fibre, contrast colour handles and trim",
         "img": [
             {
 
@@ -145,10 +145,10 @@ var products = {
     "curtain-cloth": {
         "title": "Curtain Cloth",
         "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "size": "160-170cms",
+        "weight": "---",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "100% Linen cotton",
         "img": [
             {
 
@@ -158,10 +158,10 @@ var products = {
     "home-textiles": {
         "title": "Home Textiles",
         "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "size": "---",
+        "weight": "---",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "100% Linen cotton & 85% Cotton + 15% Polyester",
         "img": [
             {
 
@@ -170,11 +170,11 @@ var products = {
     },
     "draw-sheet": {
         "title": "Draw Sheet",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "color": "White, Black and Color patterns",
+        "size": "30cm x 3m",
+        "weight": "---",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "----",
         "img": [
             {
 
@@ -183,11 +183,11 @@ var products = {
     },
     "bed-sheet": {
         "title": "Bed Sheet",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "color": "White, Black, Royal Blue and much more colors",
+        "size": "Single, Double, Queen and King",
+        "weight": "---",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "1000TC Egyptian cotton bed sheet set, Flat Sheet and Fitted Sheet",
         "img": [
             {
 
@@ -196,24 +196,24 @@ var products = {
     },
     "thermal-blanket": {
         "title": "Thermal Blanket",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "color": "White, Black, Royal Blue and much more colors",
+        "size": "Single, Double, Queen and King",
+        "weight": "----",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "100% Cotton",
         "img": [
             {
 
             }
         ]
-    },
+    },  
     "face-washer": {
         "title": "Face Washer",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
-        "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "color": "White",
+        "size": "12 x 12 cms",
+        "weight": "200 dz & 100 dz",
+        "pack": "0.75 lbs/dz and 1.00 lbs/dz",
+        "specs": "White - Over locked edges, Pastel dyed-4 side hemmed edges",
         "img": [
             {
 
@@ -222,11 +222,11 @@ var products = {
     },
     "glove": {
         "title": "Glove",
-        "color": "White, Black, Royal Blue and much more",
-        "size": "35 x 35 cms",
-        "weight": "40 grams",
+        "color": "Orange, green, pink, blue and much more",
+        "size": "14 x 26 cm",
+        "weight": "---",
         "pack": "100 dozens/ carton",
-        "specs": "85% Cotton + 15% Polyester",
+        "specs": "Polyester cotton, Non-slip comfortable kitchen mitts,light weight, this kitchen oven gloves is quite flexible to use and easy to take on/off",
         "img": [
             {
 
