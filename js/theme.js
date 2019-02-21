@@ -273,6 +273,7 @@ function enquiryFormValidation () {
       submitHandler: function(form) {
                 $(form).ajaxSubmit({
                     success: function() {
+                      $('.enquiry-form-validation :input').attr('disabled', 'disabled');
                         activeForm.fadeTo( "slow", 1, function() {
                             $(this).find(':input').attr('disabled', 'disabled');
                             $(this).find('label').css('cursor','default');
@@ -295,9 +296,13 @@ function closeSuccessAlert () {
   if(closeButton.length) {
       closeButton.on('click', function(){
         $(".alert-wrapper").fadeOut();
+        $('.form-validation :input').removeAttr('disabled');
+        $('.enquiry-form-validation :input').removeAttr('disabled');
       });
       closeButton.on('click', function(){
         $(".alert-wrapper").fadeOut();
+        $('.form-validation :input').removeAttr('disabled');
+        $('.enquiry-form-validation :input').removeAttr('disabled');
       })
   }
 }
