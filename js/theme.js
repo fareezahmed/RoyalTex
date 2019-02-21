@@ -255,9 +255,9 @@ function contactFormValidation () {
 
 //Enquiry Form Validation
 function enquiryFormValidation () {
-  var activeForm = $('.enquiry-form-validation');
-  if(activeForm.length){
-    activeForm.validate({ // initialize the plugin
+  var activeEnquireForm = $('.enquiry-form-validation');
+  if(activeEnquireForm.length){
+    activeEnquireForm.validate({ // initialize the plugin
       rules: {
         Fname: {
           required: true
@@ -274,18 +274,19 @@ function enquiryFormValidation () {
                 $(form).ajaxSubmit({
                     success: function() {
                       $('.enquiry-form-validation :input').attr('disabled', 'disabled');
-                        activeForm.fadeTo( "slow", 1, function() {
+                      activeEnquireForm.fadeTo( "slow", 1, function() {
                             $(this).find(':input').attr('disabled', 'disabled');
                             $(this).find('label').css('cursor','default');
                             $('#alert-success').fadeIn();
                         });
                     },
                     error: function() {
-                        activeForm.fadeTo( "slow", 1, function() {
+                      activeEnquireForm.fadeTo( "slow", 1, function() {
                             $('#alert-error').fadeIn();
                         });
                     }
                 });
+                return false;
             }
         });
   }
