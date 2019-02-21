@@ -1,10 +1,10 @@
 <?php
 
-    $to = "backpiper.com@gmail.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
+    $to = "fareez1234@gmail.com";
+    $from = "info@royaltex.com.au";
+    $name = $_REQUEST['Fname'];
     $headers = "From: $from";
-    $subject = "You have a message from your BizPro";
+    $subject = "RoyalTex: You have a message from Contact Form on Homepage";
 
     $fields = array();
     $fields{"Fname"}    = "First Name";

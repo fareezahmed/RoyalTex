@@ -100,7 +100,7 @@
 				<div class="container">
                     <div class="clear-fix">
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                            <div class="img"><img class="product-image" src="images/pdp/Apron.jpg" alt="Image"></div>
+                            <div class="img"><img class="product-image" src="images/pdp/apron.jpg" alt="Image"></div>
                         </div> <!-- /.col- -->
 
                         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
@@ -159,7 +159,7 @@
 					<div class="send-message">
 						<h2>Post A Enquire</h2>
 
-						<form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
+						<form action="inc/sendenquiry.php" class="enquiry-form-validation" autocomplete="off" method="post">
 							<div class="row">
 								<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
 									<div class="single-input">
@@ -172,13 +172,13 @@
 									</div> <!-- /.single-input -->
 								</div>
 							</div> <!-- /.row -->
-							<div class="single-input">
-								<input type="text" placeholder="Subject" name="sub">
+							<div class="single-input" style="display: none;">
+								<input type="text" id="product" placeholder="product" name="product">
 							</div> <!-- /.single-input -->
-							<textarea placeholder="Write Message" name="message"></textarea>
+							<textarea placeholder="Enquiry" name="enquiry"></textarea>
 
 
-							<button class="tran3s p-color-bg">Send Enquire</button>
+							<button class="tran3s p-color-bg">Send Enquiry</button>
 						</form>
 
 

@@ -240,6 +240,7 @@ var page = urlParams.get('pro');
 
 console.log(page);
 if(page) {
+    $('#product').val(products[page].title);
     $('.product-title').text(products[page].title);
     $('.product-color').text(products[page].color);
     $('.product-size').text(products[page].size);
