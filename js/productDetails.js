@@ -256,4 +256,10 @@ $('.project-gallery .grid-item .single-img').each(function( index ) {
     console.log( index + ": " + link[1]);
     var productID = link[1];
     $('.product-color').text(products[productID].color);
-  });
+});
+
+function goToURL(url){
+// some code to go to url
+    var orgin = window.location.origin
+    window.location.href = orgin + "/index.html#"+ url;
+}   

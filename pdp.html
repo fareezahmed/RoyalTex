@@ -60,10 +60,10 @@
 					   <!-- Collect the nav links, forms, and other content for toggling -->
 					   <div class="collapse navbar-collapse" id="navbar-collapse-1">
 					     <ul class="nav navbar-nav">
-					       	<li class="active"><a href="#home">HOME</a></li>
-							<li><a href="#about-us">ABOUT</a></li>
-							<li><a href="#project-section">PRODUCTS</a></li>
-							<li><a href="#contact-section">CONTACT</a></li>
+					       	<li><a href="javascript:void(0)" onclick="javascript:goToURL('home')" data-url="home">HOME</a></li>
+							<li><a href="javascript:void(0)" onclick="javascript:goToURL('about-us')" data-url="about-us">ABOUT</a></li>
+							<li class="active"><a href="javascript:void(0)" onclick="javascript:goToURL('project-section')" data-url="project-section">PRODUCTS</a></li>
+							<li><a href="javascript:void(0)" onclick="javascript:goToURL('contact-section')" data-url="contact-section">CONTACT</a></li>
 					     </ul>
 					   </div><!-- /.navbar-collapse -->
 					</nav> <!-- /.theme-feature-menu -->
@@ -137,7 +137,12 @@
                                 </tbody>
                             </table>
 
-                            <a href="#contact-section" class="project-button hvr-bounce-to-right">Make an Enquire</a>
+							<a href="#contact-section" class="project-button hvr-bounce-to-right">Make an Enquire</a>
+							<br>
+							<a href="javascript:void(0)" onclick="javascript:goToURL('project-section')" 
+								data-url="project-section" class="back-link">
+								<i class="arrow left"></i> Back to Product List
+							</a>
                         </div>
                     </div>
 				</div> <!-- /.container -->

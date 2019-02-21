@@ -250,6 +250,15 @@ animation-delay: .8s;
   width: 75%;
   margin: 60px auto 0 auto;
 }
+#about-us .theme-title h3 {
+  margin: 40px auto 0 auto;
+}
+#about-us .theme-title p.first {
+  margin: 60px auto 0 auto;
+}
+#about-us .theme-title p {
+  margin: 20px auto 0 auto;
+}
 .p-color,.theme-main-menu .navbar-nav>li.active>a,
 .theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
 #service-section .single-service-content:hover .icon-heading .icon,
@@ -821,12 +830,11 @@ animation-delay: .8s;
   background: url(../images/home/2.jpg) no-repeat center;
   background-size: cover;
   text-align: center;
-  margin-bottom: 24px;
 }
 .inner-page-banner .opacity {
   height: 100%;
   background:rgba(0,0,0,0.5);
-  padding: 146px 0 70px 0;
+  padding: 70px 0 30px 0;
 }
 .inner-page-banner .opacity h2 {
   color:#fff;
@@ -851,7 +859,6 @@ animation-delay: .8s;
  ***/
  #skill-section {
   background: #232a34;
-  margin-top: 55px;
   padding: 40px 0;
 }
 #skill-section .img {
@@ -885,6 +892,49 @@ animation-delay: .8s;
 #skill-section table {
   margin: 30px 0;
   background-color: #fff;
+}
+
+.back-link {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 700;
+  background: transparent;
+  padding: 15px 0 5px;
+  border-bottom: 1px solid #fff;
+}
+
+.back-link:hover,
+.back-link:focus,
+.back-link:active {
+  color: #fff;
+  border-bottom: 1px solid #f1c911;
+}
+
+.back-link:hover i,
+.back-link:focus i,
+.back-link:active i {
+  border-color: #f1c911;
+}
+
+.back-link i {
+  border: solid #fff;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.img-center {
+  margin: 30px auto;
 }
 
 /*** 
